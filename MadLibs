@@ -1,0 +1,8 @@
+
+
+google = ""
+
+
+print("search to " + google)
+print("search to {}".format(google))
+print(f"search to {google}")
