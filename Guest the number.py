@@ -10,7 +10,10 @@ def guess(x):
 				print('Sorry, guess again. too low')
 			elif guess > random_number:
 				print('Sorry, guess again. too high')
-				
+            elif guess = random_number:
+                print('the number has duplicated')
+
+
 		print(f'congratss!! you have guessed number {random_number} correctly!!!')
 			
 
