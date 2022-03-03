@@ -7,9 +7,9 @@ word = input()
 
 def search(text, word):
 	if word in text:
-		return("Word Found!!")
+		return("Keyword ditemukan!!")
 	else:
-		return("Word not found!!")
+		return("Keyword tidak ditemukan!!")
 
 
 print(search(text,word))

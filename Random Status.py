@@ -11,14 +11,14 @@ Quotes		= ['Jangan semangat!','Teruslah gagal!','Hidupmu gaguna','Asikk']
 def output():
 	print('\n====== ' +	random.choice(Greeting) + ' ==============================')
 
-	print('\n====== statusku ' +	random.choice(Status) + ' ====================')
+	print('\n====== hallo, statusku ' +	random.choice(Status) + ' ====================')
 
-	print('\n====== kelaminku ' +	random.choice(Gender) + ' ====================')
+	print('\n====== jenis kelaminku adalah ' +	random.choice(Gender) + ' ====================')
 
 	print('\n====== dan aku punya hobby ' +	random.choice(Hobby) + ' =============')
 	
 	print('\n====== untuk saat ini, pekerjaanku ' +	random.choice(Job) + ' =======')
 
-	print('\n====== Apapun yang sudah kamu lakukan hari ini, ' + random.choice(Quotes))
+	print('\n====== Apapun yang sudah kamu lakukan hari ini, ' + random.choice(Quotes) + ' ==========')
 	
 output()
