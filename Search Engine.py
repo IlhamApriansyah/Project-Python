@@ -1,6 +1,6 @@
 #Search Engine
 
-print("Masukan text yang mau dicari :")
+print("Masukan text yang mau dicari : ")
 
 text = input()
 word = input()
